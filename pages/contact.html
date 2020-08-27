@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!--conncted css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav id="navigation">
+        <a href="/index.html" class="logo"><img src="https://i.imgur.com/QqHDRYo.png" alt="" width="75" height="47" ><span><span></a>
+        <ul class="links">
+          <li class="dropdown" id="colorBar"><a href="#" class="trigger-drop">About<i class="arrow"></i></a>
+            <ul class="drop">
+              <li id="colorBar"><a href="/maps.html">find us</a></li>
+            </ul>
+          </li>
+          <li class="dropdown" id="colorBar"><a href="#" class="trigger-drop">Work<i class="arrow"></i></a>
+            <ul class="drop">
+              <li id="colorBar"><a href="#">Art</a></li>
+              <li id="colorBar"><a href="#">Photography</a></li>
+              <li id="colorBar"><a href="#">Audio</a></li>
+              <li id="colorBar"><a href="#">Films</a></li>
+            </ul>
+          </li>
+          <li class="dropdown" id="colorBar"><a href="#" class="trigger-drop">Contact</a>
+            <ul class="drop">
+              
+             
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="mainPart">
+
+        <h1 id="myFtitle">Audi e-tron</h1>
+        
+
+        <form style="width: 30%; padding-top: 50px; margin-left: 10px; "  > 
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationServer01">First name</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              
+              <div class="col-md-6 mb-3">
+                <label for="validationServer02">Last name</label>
+                <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationServer03">City</label>
+                <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                <div id="validationServer03Feedback" class="invalid-feedback" style="color: white;">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationServer04">State</label>
+                <select class="custom-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div id="validationServer04Feedback" class="invalid-feedback" style="color: white;">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationServer05">Zip</label>
+                <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                <div id="validationServer05Feedback" class="invalid-feedback" style="color: white;">
+                  Please provide a valid zip.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3" style="color: white;">
+                  Agree to terms and conditions
+                </label>
+                <div  id="invalidCheck3Feedback" class="invalid-feedback" style="color: white;">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
+      </div>
+
+
+
+</body>
+</html>
